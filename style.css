@@ -1,0 +1,419 @@
+@import './nav.css';
+
+@font-face {
+    font-family: 'bloodborne';
+    src: url(./fonte/Fleshandblood-MVA5x.ttf);
+}
+
+/* nav {
+    display: flex;
+    padding: 50px;
+    justify-content: flex-end;
+
+} */
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(102, 66, 0);
+    border-radius: 0px 0px 0px;
+    color: brown;
+    margin-left: 10px;
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: "bloodborne";
+}
+
+.logoImg {
+    width: 100px;
+    position: relative;
+    left: -125px;
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.imgFoto {
+    border: none;
+}
+
+main {
+    background-color: black;
+    color: rgb(243, 235, 202);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(26, 26, 29);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -186px;
+}
+
+#roger {
+    border-radius: 5px 0px 10px 0px;
+    border: 1px solid rgb(210, 111, 30);
+    font-size: 25px;
+    margin: 10px;
+}
+
+.valorant {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.robertoCarlos {
+    background-color: black;
+    color: aliceblue;
+    margin: 1px;
+    text-align: center;
+}
+
+.placa {
+    width: 504px;
+    margin-top: 1%;
+    border: 5px solid #cc1c1c;
+}
+
+.letraprafrente {
+    display: flex;
+    flex-direction: column;
+}
+
+.bagulho {
+    display: flex;
+}
+
+.titulolargo {
+    font-size: 40px;
+    padding: 69px;
+}
+
+#surdo {
+    display: flex;
+    align-items: center;
+}
+
+.trem {
+    display: flex;
+    justify-items: flex-start;
+    margin: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+h1 {
+    font-family: 'bloodborne';
+    color: aliceblue;
+    font-size: 55px;
+}
+
+h2 {
+    color: rgb(4, 75, 138);
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Melhorias para acessibilidade */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"] {
+    margin-bottom: 10px;
+}
+
+/* Estilo para a exibição das informações */
+.submitted-info {
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #c51a1a;
+}
+
+.divCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdownmenu ul,
+
+.dropdownmenu ul {
+    list-style: none;
+}
+
+.dropdownmenu li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.dropdownmenu a {
+    background: none;
+    color: brown;
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.dropdownmenu li:hover a {
+    background: #000000;
+}
+
+#submenu {
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    left: -40px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+li:hover ul#submenu {
+    opacity: 1;
+    top: 55px;
+    /* adjust this as per top nav padding top & bottom comes */
+    visibility: visible;
+}
+
+#submenu li {
+    float: none;
+    width: 100%;
+}
+
+#submenu a:hover {
+    background: #DF4B05;
+}
+
+#submenu a {
+    background-color: #000000;
+}
+
+#liConsole {
+    width: 220px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+#boga {
+    width: 163%;
+}
+
+#imgLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#navImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(26, 26, 29);
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 50%;
+}
+
+#cadastroPonctuation {
+    font-size: 45px;
+    width: 200%;
+}
+
+.robsongay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#divides {
+    display: flex;
+    flex-direction: column;
+}
+
+.butoes {
+    background-color: #007bff;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #000000;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #ffffff;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.botaoEntre {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #4CAF50;
+    width: 90%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #43A047;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    padding: 35px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "bloodborne";
+}
+
+.form .message a {
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    font-family: "bloodborne";
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.container .info span {
+    color: #4d4d4d;
+    font-size: 15px;
+}
+
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container .info span .fa {
+    color: #EF3B3A;
+}
+
+body {
+    background: #76b852;
+    /* fallback for old browsers */
+    background: rgb(141, 194, 111);
+    background: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
